@@ -104,4 +104,15 @@ footer{
     color: #fff;
     font-weight:600;
     }
-
+.productList{
+    width: max-content;
+}
+.productListHeading{
+    text-align: center;
+    background-color: #007aff;
+    border-radius: 5px;
+    padding: 4px;
+}
+.productListHeading h6{
+    margin-top: 8px;
+}
