@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+}
+.logo{
+    padding: 10px;
+    margin-top: 5px;
+}
+.navbar-collapse{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #006b9e;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.form-inline{
+    float: right;
+}
+.sign .login{
+    width: 100px;
+    color: blue;
+}
+.partner{
+    float: right;
+}
+footer{
+    padding: 10px;
+    background-color: gray;
+    text-align: center;
+    margin-top: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

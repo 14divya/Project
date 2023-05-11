@@ -7,12 +7,16 @@ const {
     deleteAUser, 
     updateUser, 
     handleRefreshToken,
-    logout
+    logout,
+    loginAdminController,
+    userCart
  } = require('../controller/userController');
 const router = express.Router();
 const { authMiddleware } = require('../middlewares/authMiddleware');
 router.post('/register',createUser);
 router.post('/login',loginUserController);
+router.post('/admin-login',loginAdminController);
+router.post('/cart',userCart);
 router.get('/all-users',getAllUser);
 router.get('/refresh',handleRefreshToken);
 router.get('/logout',logout);
