@@ -19,10 +19,8 @@ app.use(function (req, res, next) {
     next();
     });
 
-app.use(cors({
-    origin:"http://127.0.0.1:5000/api/product",
-}));
-
+app.use(cors());
+app.use(express.static('public/images'));
 
 dbConnect();
 app.use(morgan('dev'));
